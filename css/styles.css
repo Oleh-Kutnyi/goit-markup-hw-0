@@ -56,8 +56,15 @@ ul {
     color: var(--black-color-text);
 }
 
+.header-studio {
+    color: var(--blue-color-text);
+}
 
-.header-item:active,
+.header-portfolio {
+ color: var(--blue-color-text);
+}
+
+.header-item:hover,
 .header-item:focus {
     color: var(--blue-color-text);
 }
