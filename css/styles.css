@@ -16,7 +16,7 @@ ul{
 /* Header */
 
 .header{ 
-background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .header-logo {
@@ -25,35 +25,28 @@ background-color: #ffffff;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-
-    /* identical to box height */
     letter-spacing: 0.03em;
-
     color: #2196F3;
 }
 
 .header-logo-studio{
-color: #000000;
+    color: #000000;
 }
 
-.header-nav {
 
-}
-
-.header-item:active,
+.header-nav .header-item:active,
 .header-item:focus {
-color: #2196F3;
+    color: #2196F3;
 }
 
-.header-item{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        color: #212121;
+.header-nav .header-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
 
 }
 
@@ -65,7 +58,6 @@ color: #2196F3;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
     color: #757575;
 }
 
@@ -75,7 +67,8 @@ color: #2196F3;
 }
 
 
-/* Main */
+/* Main(Index.HTML)*/
+/* Hero-Section */
 .hero-section {
     background: #2F303A;
 }
@@ -86,20 +79,62 @@ color: #2196F3;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-
-    /* or 136% */
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
     color: #FFFFFF;
 
 }
 .hero-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #2196F3;
+    cursor: pointer;
+}
+/* Underbox */
 
-
+.underbox {
+    background: #E5E5E5;
 }
 
+.underbox-list .underbox-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #212121;
+}
+
+.underbox-list .underbox-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Box Section */
+
+.box-section {
+    background: #E5E5E5;
+}
+
+
+.box-section-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 
 
