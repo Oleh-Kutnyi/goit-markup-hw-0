@@ -22,18 +22,19 @@
 }
 
 /* reset styles */
-/* a {
+a {
     text-decoration-line: none;
-} */
+    color: currentColor;
+}
 
 ul {
  list-style: none;
 }
 
-.link {
+/* .link {
     text-decoration:  none;
     color: currentColor;
-}
+} */
 
 /* Header */
 
