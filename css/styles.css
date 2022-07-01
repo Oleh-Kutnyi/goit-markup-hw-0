@@ -173,6 +173,57 @@ ul{
     color: #757575;
 }
 
+/* Portfolio.HTML */
+/* Main */
+/* < !-- Portfolio Button List --> */
+
+.btn-prtf {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background: #F5F4FA;
+        border-radius: 4px;
+        color: #212121;
+        cursor: pointer;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+}
+
+.btn-prtf:hover,
+.btn-prtf:active {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+ /* < !-- Portfolio Interective Images List --> */
+
+.prtf-ii-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+
+.prtf-ii-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
 /* Footer  */
 
 .footer-section {
