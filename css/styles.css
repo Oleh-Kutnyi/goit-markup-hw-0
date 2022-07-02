@@ -17,7 +17,6 @@
 /* others */
 
 .body {
-        font-family: 'Raleway', sans-serif;
         font-family: 'Roboto', sans-serif;
 }
 
@@ -70,22 +69,22 @@ ul {
 }
 
 .header-item{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
 
 }
 
 .header-contacts {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
@@ -103,16 +102,17 @@ ul {
 }
 
 .hero-title {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    text-transform: uppercase;
     color: var(--pure-white-color);
 
 }
 .hero-btn {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -120,6 +120,7 @@ ul {
     color: var(--pure-white-color);
     background: var(--blue-color-text);
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 /* Underbox */
 
@@ -128,7 +129,7 @@ ul {
 }
 
 .underbox-list .underbox-title {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -139,7 +140,7 @@ ul {
 }
 
 .underbox-list .underbox-text{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -155,7 +156,7 @@ ul {
 
 
 .box-section-title{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -170,7 +171,7 @@ ul {
     background: var(--team-background-color);
 }
 .team-section-h2title {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -181,7 +182,7 @@ ul {
 }
 
 .team-section-list  .team-section-h3title{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -193,7 +194,7 @@ ul {
 
 
 .team-section-list  .team-section-text {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -208,7 +209,7 @@ ul {
 /* < !-- Portfolio Button List --> */
 
 .btn-prtf {
-        font-family: 'Roboto';
+        
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -232,7 +233,7 @@ ul {
  /* < !-- Portfolio Interective Images List --> */
 
 .prtf-ii-title{
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -243,7 +244,7 @@ ul {
 
 
 .prtf-ii-text {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -277,7 +278,7 @@ color: var(--pure-white-color);
 }
 
 .footer-text {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -287,7 +288,7 @@ color: var(--pure-white-color);
 }
 
 .footer-contacts {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
