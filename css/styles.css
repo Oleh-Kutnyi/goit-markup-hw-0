@@ -56,7 +56,14 @@ ul {
 /* Header */
 
 .header{ 
-    background-color: var(--secondary-background-color);
+    background-color: var(--pure-white-color);
+}
+
+.header-container {
+ display: flex;
+ align-items: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
 }
 
 .header-logo {
@@ -67,6 +74,19 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--blue-color-text);
+    margin-right: 90px;
+}
+.header-link {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.header-list-flex {
+    display: flex;
 }
 
 .header-logo-studio{
@@ -94,7 +114,15 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    margin-right: 50px;
+}
 
+.header-item:last-child {
+    margin-right: 0;
+}
+
+.header-list {
+    display: flex;
 }
 
 .header-contacts {
@@ -105,7 +133,11 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-right: 50px;
+
 }
+
+
 
 .header-contacts:hover,
 .header-contacts:focus{
@@ -143,7 +175,7 @@ ul {
 /* Underbox */
 
 .underbox {
-    background: var(--secondary-background-color);
+    background: var(--pure-white-color);
 }
 
 .underbox-list .underbox-title {
@@ -169,7 +201,7 @@ ul {
 /* Box Section */
 
 .box-section {
-    background: var(--secondary-background-color) ;
+    background: var(--pure-white-color) ;
 }
 
 
