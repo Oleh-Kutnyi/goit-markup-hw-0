@@ -22,18 +22,30 @@
 
 .container {
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
+    outline: red 2px solid;
 }
 
 /* reset styles */
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 a {
     text-decoration-line: none;
     color: currentColor;
 }
 
+
 ul {
  list-style: none;
+    padding: 0;
+        margin: 0;
 }
 
 /* .link {
