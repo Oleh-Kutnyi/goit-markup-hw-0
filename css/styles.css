@@ -94,6 +94,7 @@ h2 {
  align-items: center;
  padding-top: 30px;
  padding-bottom: 30px;
+ border-bottom: 1px solid #ECECEC;;
 }
 
 .header-logo {
@@ -393,6 +394,17 @@ h2 {
     background: var(--main-background-color);
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding: 60px 0px;
+}
+
+.footer-text-between {
+    padding-bottom: 10px;
+}
+
 .footer-logo {
 
         font-family: 'Raleway';
@@ -402,7 +414,7 @@ h2 {
             line-height: 1.2;
             letter-spacing: 0.03em;
             color: var(--blue-color-text);
-
+            padding-bottom: 20px;
 }
 
 .footer-logo-studio {
@@ -417,6 +429,7 @@ color: var(--pure-white-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--pure-white-color);
+    
 }
 
 .footer-contacts {
@@ -427,9 +440,14 @@ color: var(--pure-white-color);
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    
 }
+
 
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: var(--blue-color-text);
 }
+
+
+
