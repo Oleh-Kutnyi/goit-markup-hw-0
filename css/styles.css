@@ -11,6 +11,12 @@
     --team-background-color: #F5F4FA;
     --pure-white-color: #FFFFFF;
     --another-white-color: #ECECEC;
+
+  /* formula */
+
+  --indent: 30px ;
+  --team-members: 4 ;
+
 }
 
 
@@ -27,10 +33,19 @@
     margin-right: auto;
     margin-left: auto;
 
-    outline: red 2px solid;
+    /* outline: red 2px solid; */
+}
+
+
+.section{
+    padding:94px 0px
 }
 
 /* reset styles */
+
+img {
+    display: block;
+}
 
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -147,6 +162,14 @@ ul {
 
 /* Main(Index.HTML)*/
 /* Hero-Section */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hero-section {
     background: var(--main-background-color);
 }
@@ -171,6 +194,11 @@ ul {
     background: var(--blue-color-text);
     cursor: pointer;
     letter-spacing: 0.06em;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: #2196F3 solid;
+    padding: 10px 30px;
 }
 /* Underbox */
 
@@ -220,6 +248,26 @@ ul {
 .team-section {
     background: var(--team-background-color);
 }
+.team-wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.team-section-flex-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.team-item {
+    flex-basis: calc (100% - var(--indent) * (var(--team-members) - 1 ) / var(--team-members));
+}
+.team-shadow {
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
 .team-section-h2title {
     
     font-style: normal;
@@ -252,7 +300,10 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+
 }
+
+
 
 /* Portfolio.HTML */
 /* Main */
