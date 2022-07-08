@@ -341,9 +341,17 @@ h2 {
 /* Main */
 /* < !-- Portfolio Button List --> */
 
+.button-flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px; 
+}
+
 .btn-prtf {
         
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
@@ -353,18 +361,38 @@ h2 {
         border-radius: 4px;
         color: var(--title-color);
         cursor: pointer;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
+        border: 0px;
+        margin-right: 10px;
+        
+}
+
+.btn-flex{
+    padding-right: 8px;
 }
 
 .btn-prtf:hover,
 .btn-prtf:active {
     color: var(--pure-white-color);
     background: var(--blue-color-text);
+    border: var(--blue-color-text) 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
  /* < !-- Portfolio Interective Images List --> */
 
+.prtf-ii-list {
+    --indent: 9 ; 
+}
+
+
+.prtf-ii-flexbox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: 1px solid #EEEEEE ;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 30px;
+}
 .prtf-ii-title{
     
     font-style: normal;

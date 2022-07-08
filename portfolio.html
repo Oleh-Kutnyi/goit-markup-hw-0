@@ -30,104 +30,134 @@
 <body class="body">
 
 <header class="header">
-    <div class="container">
+    <div class="container header-container">
         <a href="" class="header-logo">Web<span class="header-logo-studio">Studio</span></a>
         <nav class="header-nav">
-            <ul>
+            <ul class="header-list-flex">
                 <li class="header-item">
-                     <a href="index.html"> Студия </a>
+                     <a href="index.html" class="header-link"> Студия </a>
                 </li>
                 <li class="header-item header-portfolio">
-                     <a href="portfolio.html"> Портфолио </a>
+                     <a href="portfolio.html" class="header-link"> Портфолио </a>
                 </li>
                 <li class="header-item">
-                     <a href=""> Контакты </a>
+                     <a href="" class="header-link"> Контакты </a>
                 </li>
             </ul>
         </nav>
 
         <ul class="header-list">
             <li>
-                 <a href="mailto:info@devstudio.com" class="header-contacts"> info@devstudio.com </a>
+                 <a href="mailto:info@devstudio.com" class="header-contacts header-link"> info@devstudio.com </a>
             </li>
 
             <li>
-                 <a href="tel:+380961111111" class="header-contacts">+38 096 111 11 11</a>
+                 <a href="tel:+380961111111" class="header-contacts header-link">+38 096 111 11 11</a>
             </li>
         </ul>
     </div>
 </header>
 
+<!-- Main Content -->
 <main>
     
-    <section>
+    <section class="section">
         <div class="container">
         <!-- Portfolio Button List -->
-        <ul class="prtf-btn-list">
+        <ul class="prtf-btn-list button-flexbox">
             <li>
-                <button class="btn-prtf"  type="button">Все</button>
+                <button class="btn-prtf btn-flex"  type="button">Все</button>
             </li>
             <li>
-                <button class="btn-prtf"  type="button">Веб-сайты</button>
+                <button class="btn-prtf btn-flex"  type="button">Веб-сайты</button>
             </li>
             <li>
-                <button class="btn-prtf"  type="button">Приложения</button>
+                <button class="btn-prtf btn-flex"  type="button">Приложения</button>
             </li>
             <li>
-                <button class="btn-prtf"  type="button">Дизайн</button>
+                <button class="btn-prtf btn-flex"  type="button">Дизайн</button>
             </li>
             <li>
-                <button class="btn-prtf"  type="button">Маркетинг</button>
+                <button class="btn-prtf btn-flex"  type="button">Маркетинг</button>
             </li>
         </ul>
         <!-- Portfolio Interective Images List -->
-        <ul class="prtf-ii-list">
-            <li>
+        <ul class="prtf-ii-list card-set">
+            <li class="card-set-items">
                 <img src="images/portfol-box/potfol-box1.jpg" alt="ноутбук" width="370" height="270"  >
-                <h3 class="prtf-ii-title">Технокряк</h3>
-                <p class="prtf-ii-text">Веб-сайт</p>
+                <div class="prtf-ii-flexbox">
+                    <h3 class="prtf-ii-title">Технокряк</h3>
+                    <p class="prtf-ii-text">Веб-сайт</p>
+                </div>
             </li>
-            <li>
-            <img src="images/portfol-box/portfol-box2.jpg" alt="баскетболисты" width="370" height="270" >
+            <li class="card-set-items">
+                <img src="images/portfol-box/portfol-box2.jpg" alt="баскетболисты" width="370" height="270" >
+            <div class="prtf-ii-flexbox">    
                 <h3 class="prtf-ii-title">Постер New Orlean vs Golden Star</h3>
                 <p class="prtf-ii-text">Дизайн</p>
+            </div>
+                
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box3.jpg" alt="логотип ресторана" width="370" height="270" >
-                <h3 class="prtf-ii-title">Ресторан Seafood</h3>
-                <p class="prtf-ii-text">Приложение</p>
+                <div class="prtf-ii-flexbox">
+                    <h3 class="prtf-ii-title">Ресторан Seafood</h3>
+                    <p class="prtf-ii-text">Приложение</p>
+                </div>
+                    
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box4.jpg" alt="наушники" width="370" height="270" >
-                <h3 class="prtf-ii-title">Проект Prime</h3>
-                <p class="prtf-ii-text">Маркетинг</p>
+                <div class="prtf-ii-flexbox">
+                    <h3 class="prtf-ii-title">Проект Prime</h3>
+                    <p class="prtf-ii-text">Маркетинг</p>
+                </div>
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box5.jpg" alt="коробки" width="370" height="270" >
-                <h3 class="prtf-ii-title">Проект Boxes</h3>
-                <p class="prtf-ii-text">Приложение</p>
+                
+                <div class="prtf-ii-flexbox">
+ 
+                     <h3 class="prtf-ii-title">Проект Boxes</h3>
+                     <p class="prtf-ii-text">Приложение</p>
+                </div>
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box6.jpg" alt="экран монитора" width="370" height="270" >
-                <h3 class="prtf-ii-title">Inspiration has no Borders</h3>
-                <p class="prtf-ii-text">Веб-сайт</p>
+                
+                <div class="prtf-ii-flexbox">
+                
+                     <h3 class="prtf-ii-title">Inspiration has no Borders</h3>
+                     <p class="prtf-ii-text">Веб-сайт</p>
+                </div>
 
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box7.jpg" alt="книга" width="370" height="270" >
-                <h3 class="prtf-ii-title">Издание Limited Edition</h3>
-                <p class="prtf-ii-text">Дизайн</p>
+                <div class="prtf-ii-flexbox">
+    
+                     <h3 class="prtf-ii-title">Издание Limited Edition</h3>
+                     <p class="prtf-ii-text">Дизайн</p>
+                </div>
 
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box8.jpg" alt="бирка" width="370" height="270" >
-                <h3 class="prtf-ii-title">Проект LAB</h3>
-                <p class="prtf-ii-text">Маркетинг</p>
+                
+                <div class="prtf-ii-flexbox">
+
+                     <h3 class="prtf-ii-title">Проект LAB</h3>
+                     <p class="prtf-ii-text">Маркетинг</p>
+                </div>
             </li>
-            <li>
+            <li class="card-set-items">
                 <img src="images/portfol-box/portfol-box9.jpg" alt="ноутбук" width="370" height="270" >
-                <h3 class="prtf-ii-title">Growing Business</h3>
-                <p class="prtf-ii-text">Приложение</p>
+                
+<div class="prtf-ii-flexbox">
+
+    <h3 class="prtf-ii-title">Growing Business</h3>
+    <p class="prtf-ii-text">Приложение</p>
+</div>
             </li>
         </ul>
     </div>
@@ -135,14 +165,14 @@
 </main>
 
 <footer class="footer-section">
-    
-    <div class="container">
+
+    <div class="container footer-container">
         <a href="" class="footer-logo">Web<span class="footer-logo-studio">Studio</span></a>
         <address>
-            <p class="footer-text"> г. Киев, пр-т Леси Украинки, 26 </p>
+            <p class="footer-text footer-text-between "> г. Киев, пр-т Леси Украинки, 26 </p>
             <ul class="footer-list">
                 <li>
-                    <a href="mailto:info@devstudio.com" class="footer-contacts"> info@devstudio.com </a>
+                    <a href="mailto:info@devstudio.com" class="footer-contacts footer-text-between"> info@devstudio.com </a>
                 </li>
                 <li>
                     <a href="tel:+380961111111" class="footer-contacts"> +38 096 111 11 11 </a>
