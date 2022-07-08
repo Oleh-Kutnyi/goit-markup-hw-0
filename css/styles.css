@@ -15,7 +15,7 @@
   /* formula */
 
   --indent: 30px ;
-  --team-members: 4 ;
+  --items: 4 ;
 
 }
 
@@ -34,6 +34,17 @@
     margin-left: auto;
 
     /* outline: red 2px solid; */
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+    justify-content: space-between;
+}
+
+.card-set-items {
+flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
 }
 
 
@@ -61,6 +72,10 @@ ul {
  list-style: none;
     padding: 0;
         margin: 0;
+}
+
+h2 {
+    padding-bottom: 50px;
 }
 
 /* .link {
@@ -206,6 +221,13 @@ ul {
     background: var(--pure-white-color);
 }
 
+.underbox-flex {
+    display: flex;
+    align-items:baseline;
+    gap: 30px;
+    justify-content: space-between;
+}
+
 .underbox-list .underbox-title {
     
     font-style: normal;
@@ -253,6 +275,11 @@ ul {
     padding-bottom: 30px;
     padding-left: 5px;
     padding-right: 5px;
+    
+}
+
+.team-back{
+    background-color: var(--pure-white-color);
 }
 .team-section-flex-list{
     display: flex;
@@ -261,7 +288,7 @@ ul {
     justify-content: space-between;
 }
 .team-item {
-    flex-basis: calc (100% - var(--indent) * (var(--team-members) - 1 ) / var(--team-members));
+    flex-basis: calc (100% - var(--indent) * (var(--items) - 1 ) / var(--items));
 }
 .team-shadow {
 
@@ -277,6 +304,10 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+}
+
+.team-section-h3title {
+    padding-bottom: 10px;
 }
 
 .team-section-list  .team-section-h3title{
